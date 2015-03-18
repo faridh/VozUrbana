@@ -1,0 +1,24 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+ 
+target 'UsoDeSuelo', :exclusive => true do
+  pod 'Parse'
+  pod 'Realm'
+  pod 'SVProgressHUD'
+  pod 'AFNetworking'
+  pod 'Google-Maps-iOS-SDK'
+  pod 'FontAwesomeIconFactory'
+  pod 'Facebook-iOS-SDK'
+  pod 'KNSemiModalViewController'
+end
+
+target 'UsoDeSueloTests', :exclusive => true do
+  pod 'Parse'
+  pod 'Realm'
+  pod 'SVProgressHUD'
+  pod 'AFNetworking'
+  pod 'Google-Maps-iOS-SDK'
+  pod 'FontAwesomeIconFactory'
+  pod 'Facebook-iOS-SDK'
+  pod 'KNSemiModalViewController'
+end
